@@ -9,6 +9,7 @@ let isLoggedIn =true;
 let isGameStart = null;
 let age;
 const bigNum = 2345454n;
+let personId = Symbol('123');
 
 //JavaSCRIPT is dynamically typed
 
