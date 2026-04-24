@@ -23,7 +23,32 @@ let myObj = { //objects
     age : 21,
 }
 
-const myFunction = function(){
-    console.log("hello world");
+// const myFunction = function(){
+//     console.log("hello world");
     
+// }
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Type of memory 
+//1. Stack memory(premitive)
+let userID1 = "1234";
+let userID2 = userID1;
+userID2 = "345";
+// console.log(userID1);
+// console.log(userID2);
+
+//2.Heap memory(non-primitive)
+let userOne ={
+    email : "disha@gmail.com",
+    password : 1234,
 }
+
+let userTwo = userOne;
+
+userTwo.email = "dishanavreti2@gmail.com";
+// console.log(userTwo.email);
+// console.log(userOne.email);
+
+
